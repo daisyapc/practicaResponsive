@@ -1,0 +1,38 @@
+body{
+  background-image: url(../images/bg-body.png);
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+.container{
+  overflow: hidden;
+  margin: 0px auto;
+}
+header{
+  width: 100%;
+  overflow: hidden;
+}
+header h1{
+  margin: 0px auto;
+  text-align: center;
+
+}
+header img{
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+header a{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+/*@media only screen (max-width 768px){
+  header a{
+    display: inline-list
+  }
+}*/
